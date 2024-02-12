@@ -1,4 +1,4 @@
-#giving random id
+#giving random id number for testing
 resource "random_id" "function_prefix" {
   byte_length = var.prefix_length
 }
